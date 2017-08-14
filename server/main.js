@@ -88,7 +88,7 @@ app.get('/home', function (req, res) {
 })
 
 // http://localhost:3000/home?top=newbrand
-app.listen(3000, function () {
+app.listen(3000 || process.env.PORT, function () {
   console.log('Example app listening on port 3000!')
 })
 // http://localhost:3000/
