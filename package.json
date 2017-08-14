@@ -32,5 +32,5 @@
     "npm": "5.3.0",
     "node": "8.2.1"
   },
-  "heroku-postbuild": "webpack -p --config ./webpack.prod.config.js --progress"
+  "heroku-postbuild": "webpack -p --config ./webpack.config.js --progress"
 }
