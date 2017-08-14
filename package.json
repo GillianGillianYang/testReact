@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "main.js",
   "scripts": {
-    "build": "./node_modules/.bin/webpack --watch --config webpack.config.js",
-    "start": "npm run build & node server/main.js",
+    "build": "./node_modules/.bin/webpack --config webpack.config.js",
+    "start": "npm run build && node server/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -27,5 +27,8 @@
     "json-loader": "^0.5.7"
   },
   "keywords": [],
-  "description": ""
+  "description": "",
+  "engines": {
+    "npm": "5.3.0"
+  }
 }
